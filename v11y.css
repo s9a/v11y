@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: monospace, monospace;
+  font-size: calc(1em + 1vw + 1vh);
+  background: WhiteSmoke;
+  color: DarkMagenta;
+  line-height: 2;
+}
+
+body {
+  margin: 0;
+  padding: 1rem 2rem;
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+li {
+  margin: 0 0 1rem;
+}
+
+h1,
+strong {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+}
