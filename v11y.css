@@ -1,13 +1,30 @@
+@media (color) {
+  html {
+    background: lavender;
+    color: purple;
+  }
+}
+
+@media (prefers-contrast: more) {
+  html {
+    color: black;
+  }
+}
+
+@media (prefers-contrast: less), (prefers-color-scheme: dark) {
+  html {
+    background: plum;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
+  line-height: 2;
   font-family: monospace, monospace;
   font-size: calc(1em + 1vw + 1vh);
-  background: WhiteSmoke;
-  color: DarkMagenta;
-  line-height: 2;
 }
 
 body {
